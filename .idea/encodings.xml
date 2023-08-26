@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../Maven/Repository3.8/org/springframework/boot/spring-boot-starter-parent/2.6.3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Carton/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Moive/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/YouKu-Auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Anime/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Car/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Documentary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Movie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Sport/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-TvSeries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-User/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Youku-Variety/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

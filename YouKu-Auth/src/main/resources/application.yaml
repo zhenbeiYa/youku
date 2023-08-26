@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: youku-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.116.249.35:8848

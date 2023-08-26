@@ -1,0 +1,38 @@
+server:
+  port: 88
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: youku-movie
+          uri: lb://youku-movie
+          predicates:
+            - Path=/youku/movie/**
+          filters:
+            - RewritePath=/youku/?(?<segment>.*), /$\{segment}
+        - id: youku-tv-series
+          uri: lb://youku-tv-series
+          predicates:
+            - Path=/youku/tv/series/**
+          filters:
+            - RewritePath=/youku/?(?<segment>.*), /$\{segment}
+        - id: youku-anime
+          uri: lb://youku-tv-series
+          predicates:
+            - Path=/youku/tv/series/**
+          filters:
+            - RewritePath=/youku/?(?<segment>.*), /$\{segment}
+        - id: youku-auth
+          uri: lb://youku-auth
+          predicates:
+            - Path=/youku/auth/**
+          filters:
+            - RewritePath=/youku/?(?<segment>.*), /$\{segment}
+    nacos:
+      discovery:
+        server-addr: 114.116.249.35:8848
+  application:
+    name: youku-gateway

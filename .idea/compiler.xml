@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Youku-Car" />
+        <module name="Commons" />
+        <module name="Youku-Documentary" />
+        <module name="Youku-Sport" />
+        <module name="Youku-Anime" />
+        <module name="Youku-Variety" />
+        <module name="Youku-Gateway" />
+        <module name="YouKu-Auth" />
+        <module name="Youku-User" />
+        <module name="Youku-TvSeries" />
+        <module name="Youku-Movie" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Carton" target="11" />
+      <module name="Moive" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Carton" options="" />
+      <module name="Commons" options="" />
+      <module name="Moive" options="-parameters" />
+      <module name="YouKu-Auth" options="-parameters" />
+      <module name="Youku-Anime" options="-parameters" />
+      <module name="Youku-Car" options="-parameters" />
+      <module name="Youku-Documentary" options="-parameters" />
+      <module name="Youku-Gateway" options="-parameters" />
+      <module name="Youku-Movie" options="-parameters" />
+      <module name="Youku-Sport" options="-parameters" />
+      <module name="Youku-TvSeries" options="-parameters" />
+      <module name="Youku-User" options="-parameters" />
+      <module name="Youku-Variety" options="-parameters" />
+      <module name="youku" options="" />
+    </option>
+  </component>
+</project>

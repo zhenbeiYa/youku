@@ -1,0 +1,18 @@
+server:
+  port: 7085
+spring:
+  application:
+    name: youku-tv-series
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:///youku_vedios?useSSL=false&&allowPublicKeyRetrieval=true
+  redis:
+    host: 114.116.249.35
+    password: 888508
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.116.249.35:8848
